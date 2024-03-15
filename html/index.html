@@ -7,7 +7,7 @@
     <title>List Countries</title>
 
     <style>
-        img{
+        img {
             aspect-ratio: 16/9;
             object-fit: cover;
         }
@@ -19,14 +19,14 @@
 <body>
     <nav class="navbar bg-body-secondary">
         <div class="container-fluid">
-          <a class="navbar-brand">Países</a>
-          <form class="d-flex form" role="search">
-            <input id="search" class="form-control me-2 border border-success" type="search" placeholder="Buscar Países" aria-label="Search">
-            <button class="btn btn-outline-success border-3" type="submit" onclick="search()">Buscar</button>
-          </form>
+            <a class="navbar-brand">Países</a>
+            <div class="d-flex form" role="search">
+                <input id="search" class="form-control me-2 border border-success" type="search"
+                    placeholder="Buscar Países" aria-label="Search">
+                <button class="btn btn-outline-success border-3" type="submit" onclick="list(true)">Buscar</button>
+            </div>
         </div>
-      </nav>
-    <p id="p"></p>
+    </nav>
     <div class="container mt-5">
         <div id="row" class="row">
         </div>
